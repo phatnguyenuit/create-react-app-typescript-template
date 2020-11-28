@@ -23,8 +23,7 @@
   ],
   "globals": {
     "document": true,
-    "window": true,
-    "SellerWalletWidget": true
+    "window": true
   },
   "parserOptions": {
     "ecmaVersion": 2018,

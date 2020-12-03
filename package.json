@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
-    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "lint": "eslint src/**/*.{ts,tsx}",
     "lint:fix": "yarn lint --fix",
     "type-check": "tsc --noEmit",
     "eject": "react-scripts eject"

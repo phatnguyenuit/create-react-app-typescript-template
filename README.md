@@ -1,5 +1,28 @@
 # create-react-app-typescript-template
+
+![CI/CD](https://github.com/phatnguyenuit/create-react-app-typescript-template/workflows/CI/CD/badge.svg)
+[![codecov](https://codecov.io/gh/phatnguyenuit/create-react-app-typescript-template/branch/master/graph/badge.svg?token=4C32ACLQWS)](https://codecov.io/gh/phatnguyenuit/create-react-app-typescript-template)
+![License](https://img.shields.io/github/license/phatnguyenuit/create-react-app-typescript-template)
+
 Create React App TypeScript template
+
+
+## Features
+
+- Automate workflow to deploy with GitHub Actions
+- Code coverage with [Codecov](https://codecov.io)
+- Strong static typings with TypeScript
+- ESLint
+- Prettier
+- pre-commit hook with Husky
+
+# Configure
+
+- Update `jest` test coverage options of file [`package.json`](./package.json)
+- Add secrets at `https://github.com/:user_name/:repository_name/settings/secrets/actions`
+  - Add `CODECOV_TOKEN` got from `https://codecov.io/gh/:user_name/:repository_name/`
+  - Add `DEPLOY_ACCESS_TOKEN` got from [`Personal access tokens`](https://github.com/settings/tokens) with the first four `repo` options checked
+- Update source for above badges by your own
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -45,3 +68,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Setup CI/CD
+
+Refer this article: [Setting up a CI/CD workflow on GitHub Actions for a React App (with GitHub Pages and Codecov)](https://dev.to/dyarleniber/setting-up-a-ci-cd-workflow-on-github-actions-for-a-react-app-with-github-pages-and-codecov-4hnp)

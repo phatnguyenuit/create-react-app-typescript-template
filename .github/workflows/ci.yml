@@ -61,3 +61,6 @@ jobs:
           yarn deploy -m "${{ github.event.head_commit.message }}"
         env:
           GITHUB_TOKEN: ${{ secrets.DEPLOY_ACCESS_TOKEN }}
+          USER_NAME: 'github-actions[bot]'
+          USER_EMAIL: 'github-actions[bot]@users.noreply.github.com'
+          REPOSITORY: ${{ github.repository }}

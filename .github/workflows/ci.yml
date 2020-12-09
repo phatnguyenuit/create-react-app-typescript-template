@@ -43,24 +43,15 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
 
-      - name: Release
+      - name: Release & deploy to GitHub Pages
         run: |
-          git config --global user.name $USER_NAME
-          git config --global user.email $USER_EMAIL
-          git remote set-url origin https://${GITHUB_TOKEN}@github.com/${REPOSITORY}
+          git config --global user.name $user_name
+          git config --global user.email $user_email
+          git remote set-url origin https://${github_token}@github.com/${repository}
           yarn release
+          yarn deploy -m "${{ github.event.head_commit.message }}" 
         env:
-          USER_NAME: 'github-actions[bot]'
-          USER_EMAIL: 'github-actions[bot]@users.noreply.github.com'
-          GITHUB_TOKEN: ${{ github.token }}
-          REPOSITORY: ${{ github.repository }}
-
-      - name: Deploy to GitHub Pages
-        run: |
-          node node_modules/gh-pages/bin/gh-pages-clean
-          yarn deploy -m "${{ github.event.head_commit.message }}"
-        env:
-          GITHUB_TOKEN: ${{ secrets.DEPLOY_ACCESS_TOKEN }}
-          USER_NAME: 'github-actions[bot]'
-          USER_EMAIL: 'github-actions[bot]@users.noreply.github.com'
-          REPOSITORY: ${{ github.repository }}
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          github_token: ${{ secrets.DEPLOY_ACCESS_TOKEN }}
+          repository: ${{ github.repository }}

@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/create-react-app-typescript-template/static/css/main.435d5fe5.chunk.css",
-    "main.js": "/create-react-app-typescript-template/static/js/main.eac76f21.chunk.js",
-    "main.js.map": "/create-react-app-typescript-template/static/js/main.eac76f21.chunk.js.map",
-    "runtime-main.js": "/create-react-app-typescript-template/static/js/runtime-main.83fa7cdf.js",
-    "runtime-main.js.map": "/create-react-app-typescript-template/static/js/runtime-main.83fa7cdf.js.map",
-    "static/js/2.fb1dc551.chunk.js": "/create-react-app-typescript-template/static/js/2.fb1dc551.chunk.js",
-    "static/js/2.fb1dc551.chunk.js.map": "/create-react-app-typescript-template/static/js/2.fb1dc551.chunk.js.map",
+    "main.css": "/create-react-app-typescript-template/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/create-react-app-typescript-template/static/js/main.55a03d4d.chunk.js",
+    "main.js.map": "/create-react-app-typescript-template/static/js/main.55a03d4d.chunk.js.map",
+    "runtime-main.js": "/create-react-app-typescript-template/static/js/runtime-main.6f8a92b7.js",
+    "runtime-main.js.map": "/create-react-app-typescript-template/static/js/runtime-main.6f8a92b7.js.map",
+    "static/js/2.feb3c67c.chunk.js": "/create-react-app-typescript-template/static/js/2.feb3c67c.chunk.js",
+    "static/js/2.feb3c67c.chunk.js.map": "/create-react-app-typescript-template/static/js/2.feb3c67c.chunk.js.map",
     "index.html": "/create-react-app-typescript-template/index.html",
-    "precache-manifest.c9a74df60c1ab33aedcfae555e294ce4.js": "/create-react-app-typescript-template/precache-manifest.c9a74df60c1ab33aedcfae555e294ce4.js",
-    "service-worker.js": "/create-react-app-typescript-template/service-worker.js",
-    "static/css/main.435d5fe5.chunk.css.map": "/create-react-app-typescript-template/static/css/main.435d5fe5.chunk.css.map",
-    "static/js/2.fb1dc551.chunk.js.LICENSE.txt": "/create-react-app-typescript-template/static/js/2.fb1dc551.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/create-react-app-typescript-template/static/media/logo.5d5d9eef.svg"
+    "static/css/main.ab7136cd.chunk.css.map": "/create-react-app-typescript-template/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.feb3c67c.chunk.js.LICENSE.txt": "/create-react-app-typescript-template/static/js/2.feb3c67c.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/create-react-app-typescript-template/static/media/logo.103b5fa1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.83fa7cdf.js",
-    "static/js/2.fb1dc551.chunk.js",
-    "static/css/main.435d5fe5.chunk.css",
-    "static/js/main.eac76f21.chunk.js"
+    "static/js/runtime-main.6f8a92b7.js",
+    "static/js/2.feb3c67c.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.55a03d4d.chunk.js"
   ]
 }

@@ -1,3 +1,5 @@
+## [0.2.4](https://github.com/phatnguyenuit/create-react-app-typescript-template/compare/0.2.3...0.2.4) (2020-12-09)
+
 ## [0.2.3](https://github.com/phatnguyenuit/create-react-app-typescript-template/compare/0.2.2...0.2.3) (2020-12-09)
 
 ## [0.2.2](https://github.com/phatnguyenuit/create-react-app-typescript-template/compare/0.2.1...0.2.2) (2020-12-09)
